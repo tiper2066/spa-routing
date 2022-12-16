@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="/css/style.css" />
+        <script defer type="module" src="/app.js"></script>
+        <title>iSIGN+ 통합 관리도구</title>
+    </head>
+    <body>
+        <header>
+            <div class="logo">
+                <a href="/" nav__link>iSIGN+ 통합 관리도구</a>
+            </div>
+            <nav class="product_menu">
+                <a href="/" class="nav__link active" data-link>SS-ATH</a>
+                <a href="/dashboard_iat" class="nav__link" data-link>SS-IAT</a>
+                <a href="/dashboard_wca" class="nav__link" data-link>SG-WCA</a>
+                <a href="/dashboard_sa" class="nav__link" data-link>SA</a>
+            </nav>
+            <div>
+                <a href="#">KR</a>
+                <a href="#">Tiper (admin)</a>
+            </div>
+        </header>
+        <nav class="side_menu ss_ath hide">
+            <ul>
+                <li>
+                    <h4>== SS-ATH ==</h4>
+                </li>
+                <li>
+                    <a href="/" class="nav__link active" data-link
+                        >대시보드 - SS-ATH</a
+                    >
+                </li>
+                <li>
+                    <a href="/posts" class="nav__link" data-link
+                        >로그 - SS-ATH</a
+                    >
+                </li>
+                <li>
+                    <a href="/settings" class="nav__link" data-link
+                        >설정 - SS-ATH</a
+                    >
+                </li>
+                <li>
+                    <a href="/not_found" class="nav__link" data-link
+                        >에러 페이지 - SS-ATH</a
+                    >
+                </li>
+                <li>
+                    <a href="http://www.naver.com" target="_blank"
+                        >data-link 없는 링크 메뉴</a
+                    >
+                </li>
+            </ul>
+        </nav>
+        <nav class="side_menu ss_iat hide">
+            <ul>
+                <li>
+                    <h4>== SS-IAT ==</h4>
+                </li>
+                <li>
+                    <a href="/dashboard_iat" class="nav__link active" data-link
+                        >대시보드 - SS-IAT</a
+                    >
+                </li>
+                <li>
+                    <a href="/posts_iat" class="nav__link" data-link
+                        >로그 - SS-IAT</a
+                    >
+                </li>
+                <li>
+                    <a href="/settings_iat" class="nav__link" data-link
+                        >설정 - SS-IAT</a
+                    >
+                </li>
+            </ul>
+        </nav>
+        <nav class="side_menu sg_wca hide">
+            <ul>
+                <li>
+                    <h4>== SS-WCA ==</h4>
+                </li>
+                <li>
+                    <a href="/dashboard_wca" class="nav__link active" data-link
+                        >대시보드 - SS-WCA</a
+                    >
+                </li>
+                <li>
+                    <a href="/posts_wca" class="nav__link" data-link
+                        >로그 - SS-WCA</a
+                    >
+                </li>
+                <li>
+                    <a href="/settings_wca" class="nav__link" data-link
+                        >설정 - SS-WCA</a
+                    >
+                </li>
+            </ul>
+        </nav>
+        <nav class="side_menu sa hide">
+            <ul>
+                <li>
+                    <h4>== SA ==</h4>
+                </li>
+                <li>
+                    <a href="/dashboard_sa" class="nav__link active" data-link
+                        >대시보드 - SA</a
+                    >
+                </li>
+                <li>
+                    <a href="/posts_sa" class="nav__link" data-link
+                        >로그 - SA</a
+                    >
+                </li>
+                <li>
+                    <a href="/settings_sa" class="nav__link" data-link
+                        >설정 - SA</a
+                    >
+                </li>
+            </ul>
+        </nav>
+        <div id="app"></div>
+    </body>
+</html>
